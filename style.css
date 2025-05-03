@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9f9f9;
+  color: #111;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem 3rem;
+  background-color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.image-text {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-text.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-text img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  color: #444;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  margin-top: 2rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.links ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.links li {
+  margin: 1rem 0;
+}
+
+.links a {
+  color: #004b4f;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid #004b4f;
+  padding-bottom: 2px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 3rem 1rem;
+  color: #777;
+}
